@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.container-fluid {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#myVideo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.cover {
+  position: relative;
+  text-align: center;
+  height: 100%;
+  padding: 8rem 2rem;
+  background-color: rgba(#27187E, 0.5);
+  color: var(--secondary);
+  overflow: hidden;
+
+  .btn-login {
+    margin-top: 2.5rem;
+    // border: 1px solid var(--primary);
+    // color: var(--primary);
+    border: 0;
+    background-color: var(--success);
+    padding: 20px 40px;
+    &:hover{
+      border: 0;
+      background-color: lighten(#47682C, 10%);
+    }
+  }
+
+  .box{
+    height: 100%;
+  }
+}

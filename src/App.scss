@@ -1,0 +1,27 @@
+@import './styles/theme.scss';
+
+html,
+body,
+#root,
+.container-fluid{
+  height: 100%;
+}
+
+.box {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  &.bordered {
+    border-radius: 5px;
+    border: 1px solid var(--primary);
+  }
+  &.box-shadow{
+    background-color: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(14,0,21,0.08);
+  }
+}
+
+.btn {
+  border-radius: 40px;
+  border: 0;
+}
